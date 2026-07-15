@@ -1,11 +1,32 @@
-def save_report(report: str, output_path: str) -> None:
+from pathlib import Path
+
+
+def save_report(
+    report: str,
+    output_path: str | Path,
+) -> None:
     """
-    Save a report to a text file.
+    Saves a text report to the specified path.
+
+    The parent directory is created automatically
+    when it does not exist.
 
     Args:
-        report (str): Formatted report.
-        output_path (str): File path where the report will be saved.
+        report:
+            Formatted report content.
+
+        output_path:
+            File path where the report will be saved.
     """
 
-    with open(output_path, "w", encoding="utf-8") as file:
-        file.write(report)
+    output_path = Path(output_path)
+
+    output_path.parent.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
+
+    output_path.write_text(
+        report,
+        encoding="utf-8",
+    )

@@ -1,0 +1,29 @@
+==================================================
+DATA QUALITY REPORT
+==================================================
+
+GENERAL INFORMATION
+--------------------------------------------------
+Rows: 24
+Columns: 6
+Memory usage: 5.72 KB
+
+DATA QUALITY
+--------------------------------------------------
+Duplicated rows: 0
+Duplicate percentage: 0.0%
+Columns with nulls: 0
+Total null values: 0
+Null percentage: 0.0%
+
+EMPTY COLUMNS
+--------------------------------------------------
+[]
+
+SINGLE VALUE COLUMNS
+--------------------------------------------------
+[]
+
+NULL VALUES BY COLUMN
+--------------------------------------------------
+No null values found.

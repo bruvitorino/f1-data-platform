@@ -1,0 +1,32 @@
+==================================================
+DATA QUALITY REPORT
+==================================================
+
+GENERAL INFORMATION
+--------------------------------------------------
+Rows: 479
+Columns: 18
+Memory usage: 98.28 KB
+
+DATA QUALITY
+--------------------------------------------------
+Duplicated rows: 0
+Duplicate percentage: 0.0%
+Columns with nulls: 4
+Total null values: 158
+Null percentage: 1.83%
+
+EMPTY COLUMNS
+--------------------------------------------------
+[]
+
+SINGLE VALUE COLUMNS
+--------------------------------------------------
+[]
+
+NULL VALUES BY COLUMN
+--------------------------------------------------
+classified_position_numeric: 47
+race_time_or_gap: 55
+race_time_or_gap_ms: 55
+positions_gained: 1
