@@ -1,0 +1,29 @@
+==================================================
+DATA QUALITY REPORT
+==================================================
+
+GENERAL INFORMATION
+--------------------------------------------------
+Rows: 479
+Columns: 17
+Memory usage: 270.08 KB
+
+DATA QUALITY
+--------------------------------------------------
+Duplicated rows: 0
+Duplicate percentage: 0.0%
+Columns with nulls: 1
+Total null values: 55
+Null percentage: 0.68%
+
+EMPTY COLUMNS
+--------------------------------------------------
+[]
+
+SINGLE VALUE COLUMNS
+--------------------------------------------------
+['season']
+
+NULL VALUES BY COLUMN
+--------------------------------------------------
+race_time: 55

@@ -1,0 +1,32 @@
+==================================================
+DATA QUALITY REPORT
+==================================================
+
+GENERAL INFORMATION
+--------------------------------------------------
+Rows: 25
+Columns: 23
+Memory usage: 18.23 KB
+
+DATA QUALITY
+--------------------------------------------------
+Duplicated rows: 0
+Duplicate percentage: 0.0%
+Columns with nulls: 4
+Total null values: 4
+Null percentage: 0.7%
+
+EMPTY COLUMNS
+--------------------------------------------------
+[]
+
+SINGLE VALUE COLUMNS
+--------------------------------------------------
+['Session1', 'F1ApiSupport']
+
+NULL VALUES BY COLUMN
+--------------------------------------------------
+Session4Date: 1
+Session4DateUtc: 1
+Session5Date: 1
+Session5DateUtc: 1
