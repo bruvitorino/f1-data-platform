@@ -40,8 +40,21 @@ def save_schedule_to_bronze(schedule, year: int) -> Path:
     return output_path
 
 
-if __name__ == "__main__":
-    schedule = get_event_schedule(CURRENT_SEASON)
-    saved_file = save_schedule_to_bronze(schedule, CURRENT_SEASON)
+def main() -> None:
+    """Extract and save the Formula 1 event schedule."""
 
+    schedule = get_event_schedule(CURRENT_SEASON)
+
+    saved_file = save_schedule_to_bronze(
+        schedule,
+        CURRENT_SEASON,
+    )
+
+    print("Event schedule extraction completed.")
+    print(f"Rows: {len(schedule)}")
+    print(f"Columns: {len(schedule.columns)}")
     print(f"Bronze file created: {saved_file}")
+
+    
+if __name__ == "__main__":
+    main()
